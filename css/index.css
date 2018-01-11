@@ -1,0 +1,78 @@
+body {
+	background-color: #d3d3d3;
+}
+
+.logotipo {
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.logotipo img {	
+	height: 30px;
+}
+
+.perfil {
+	padding: 10px;
+	width: 300px;
+}
+
+.perfil li:first-child {
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.footer {
+	display: block;
+	background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    height: 30px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding-top: 8px;
+    color: #FFF;
+    font-size: 10px;
+}
+
+/*
+.search-form {
+	text-align: left;
+	background-color: #FFF;
+}
+*/
+
+.input-palavra-chave {
+	width: 65%;
+}
+
+/*
+.form-group {
+	display: inline-flex;
+}
+*/
+
+.input-group {
+	margin-bottom: 5px;
+	padding-top: 7px;
+	padding-right: 12px;
+	
+}
+
+@media (max-width: 767px) {
+	.perfil {
+		color: #FFF;
+	}
+
+	.perfil a {
+		color: #d9d9d9;
+		display: block;
+		padding: 5px 0;
+	}
+
+	.perfil a:hover {
+		text-decoration: none;
+		color: #FFF;
+	}
+
+}
